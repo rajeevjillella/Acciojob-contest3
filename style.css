@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigationbar{
+    display: flex;
+/* padding: 35px 240px; */
+flex-direction: row;
+padding-top: 35px;
+padding-bottom: 35px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+.content{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 107px;
+}
+.logo{
+
+}
+
+.right{
+
+    width: 404px;
+    display: flex;
+    gap: 12px;
+}
+
+.navlinks{
+    font-family: poppins;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+    display: flex;
+width: 441px;
+
+}
+
+.navlinks li{
+    display: inline-block;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 24px;
+}
+
+
+a{
+    text-decoration:none;
+    color: var(--food-delivery-pg, #212244);
+}
+.text{
+    color: var(--food-delivery-pg, #212244);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;s
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.search-bar{
+    width: 222px;
+    height: 40px;
+    background-color:  #FFF;
+    border: 1px solid rgba(105, 105, 123, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: text;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.bag-icon{
+    cursor: pointer;
+}
+
+.signin{
+    width: 109px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--food-delivery-orange-color, #F94A3D);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+/* Section 1 */
+
+/* main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+/* main{
+
+    max-width: 1400rem;
+    margin: 0 auto;
+} */
+
+.main-container{
+    align-items: center;
+    padding-top: 90px;
+    justify-content: center;
+
+}
+
+.hero-section{
+
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(background.svg);
+}
+
+h1{
+    width: 524px;
+    color: #212244;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+}
+.left{
+    padding-left: 140px;
+}
+
+.your_door{
+    color: #F94A3D;
+}
+
+p{
+    width: 520px;
+    color: var(--food-delivery-p, #69697B);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+
+.explore_food{
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    width: 144px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background: #F94A3D;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section2{
+
+    margin-top: 140px;
+}
+
+.c{
+    /* display: flex;
+    flex-direction: row; */
+
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.section2_images{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.s2heading{
+    width: 320px;
+    color: var(--food-delivery-pg, #212244);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px;
+}
+
+.s2description{
+    width: 320px;
+    color: var(--food-delivery-p, #69697B);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 31px; /* 172.222% */
+}
+
+.section2_images img{
+
+    width: 140px;
+    height: 183px;
+}
+
+.try{
+    text-align: center;
+    color: var(--food-delivery-pg, #212244);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+
+
+
